@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-family: cursive;
+    height: 90vh;
+    background-color: #dfdecbe6;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;     
+}
+
+.mclogo{
+    width: 20vh;
+    height: 17vh;
+    margin-top: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+.orden-preparacion {
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    height: 400px;  
+    padding: 20px;
+    margin: 40px;        
+    flex-wrap: wrap;
+}
+
+table{
+    border-collapse: collapse;
+    width: 90vh;
+    font-size: 20px;
+}
+
+.completada-btn{
+    background-color: #42ad18;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 19px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.listo-btn{
+    background-color: #dd6b00;
+    color: white;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 19px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.completada-btn:hover{
+    transform: scale(1.1); 
+    transition: transform 0.2s ease; 
+}
+
+.listo-btn:hover{
+    transform: scale(1.1); 
+    transition: transform 0.2s ease; 
+}
+
+th, td{
+    padding-bottom: 30px;
+}

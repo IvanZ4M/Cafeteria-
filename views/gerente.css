@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    height: 90vh;
+    font-family: cursive;
+    background-color: #dfdecbe6;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.mclogo{
+    width: 20vh;
+    height: 17vh;
+    margin-top: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    
+}
+
+table{
+    width: 90vh;
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+}
+
+.btn{
+    border-radius: 15px;
+    padding:5px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.cerrar{
+    background-color: #DA291C;
+    border: none;
+    font-family: cursive;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cerrar:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+.desactivar{
+    background-color: #DA291C;
+    border: none;
+    font-family: cursive;
+    color: white;
+    padding: 4px 12px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.desactivar:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+.activar{
+    background-color: #42AD18;
+    border: none;
+    font-family: cursive;
+    color: white;
+    padding: 4px 12px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.activar:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+.menu{
+    background-color: #F5A623;
+    border: none;
+    font-family: cursive;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+.btn:hover{
+    background-color: #d3d3d3;
+    transition:  0.2s ease;
+}

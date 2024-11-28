@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 90vh;
+    font-family: cursive;
+    background-color: #dfdecbe6;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column-reverse
+}
+
+h1 {
+    color: black;
+    padding: 20px;
+    font-size: 49px;
+}
+
+.loading-screen {
+    position: relative;
+}
+
+.cargaMcDonalds {
+    width: 200px; 
+    height: auto;
+}
+
+.cargaDefault {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 100px; 
+    height: auto;
+    z-index: 1; 
+}
+

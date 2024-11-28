@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-family: cursive;
+    height: 90vh;
+    background-color: #dfdecbe6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.mclogo{
+    width: 20vh;
+    height: 17vh;
+    margin-top: 15px;
+}
+
+.estado {
+    display: flex;
+    gap: 40px; 
+    justify-content: center; 
+}
+
+.preparacion, .retirar {
+    width: 300px; 
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.ordenesCol {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+    margin-bottom: 25px;
+}
+
+.orden {
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}

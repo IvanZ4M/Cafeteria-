@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-family: cursive;
+    height: 90vh;
+    background-color: #dfdecbe6;
+    margin: 0;
+    padding: 0;
+}
+
+.mclogo{
+    width: 20vh;
+    height: 17vh;
+    margin-top: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    
+}
+
+.tablitaparacentrar{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 40px;
+}
+
+.turno-box {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.total-box {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.combo-name {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #d83232;
+    color: rgb(255, 215, 14);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.next-btn {
+    background-color: #28a745;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.next-btn:hover {
+    background-color: #218838;
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+form {
+    text-align: center;
+}
